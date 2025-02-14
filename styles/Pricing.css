@@ -1,0 +1,95 @@
+/* Pricing Page Container */
+.pricing-container {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.pricing-intro {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+/* Pricing Card Styling */
+.pricing-card {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.pricing-card h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.pricing-card .price {
+  font-size: 2rem;
+  color: #17a2b8;
+  margin: 15px 0;
+}
+
+.btn-select {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-select:hover {
+  background-color: #138496;
+}
+
+/* Card Deck for Sports */
+.card-deck .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card-deck .card-body {
+  text-align: center;
+}
+
+.card-deck .btn-register {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-deck .btn-register:hover {
+  background-color: #218838;
+}
+
+/* Carousel */
+.carousel-container {
+  margin-top: 40px;
+}
+
+.carousel-inner h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.carousel-inner p {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #17a2b8;
+}

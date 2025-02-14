@@ -1,0 +1,51 @@
+/sports-academy/
+├── /public/
+├── /src/
+│   ├── /assets/            # For images, logos, or static assets
+│   ├── /components/        # Shared reusable components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── Sidebar.js
+│   │   ├── Loader.js
+│   │   ├── NotFound.js
+│   │   ├── /forms/         # Forms for login, signup, etc.
+│   │   │   ├── LoginForm.js
+│   │   │   ├── SignupForm.js
+│   │   │   ├── ForgotPasswordForm.js
+│   │   └── /tables/        # Table components for listing data
+│   │       ├── UsersTable.js
+│   │       ├── TrainersTable.js
+│   │       ├── CoursesTable.js
+│   ├── /pages/             # Pages for the app
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Pricing.js
+│   ├── /admin-dashboard/   # Admin-specific components and pages
+│   │   ├── AdminDashboard.js
+│   │   ├── ManageUsers.js
+│   │   ├── ManageTrainers.js
+│   │   ├── ManageCourses.js
+│   │   └── Reports.js
+│   ├── /user-dashboard/    # User-specific components and pages
+│   │   ├── UserDashboard.js
+│   │   ├── MyCourses.js
+│   │   ├── PaymentHistory.js
+│   │   ├── Profile.js
+│   └── /trainers-dashboard/  # Trainer-specific components and pages
+│       ├── TrainerDashboard.js
+│       ├── Schedule.js
+│       ├── ManageStudents.js
+│       ├── Profile.js
+│   ├── App.js              # Main React app entry point
+│   ├── index.js            # Renders App.js into the DOM
+│   ├── /context/           # Context API for state management
+│   │   ├── AuthContext.js
+│   │   ├── UserContext.js
+│   ├── /styles/            # CSS or SCSS files
+│       ├── globals.css
+│       ├── Header.css
+│       ├── Sidebar.css
+│       ├── AdminDashboard.css
+├── package.json
+├── README.md

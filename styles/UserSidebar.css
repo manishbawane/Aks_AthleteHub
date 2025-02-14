@@ -1,0 +1,42 @@
+/* UserSidebar.css */
+
+.user-sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .user-sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-sidebar nav ul li {
+    margin: 10px 0;
+  }
+  
+  .user-sidebar .sidebar-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-sidebar .sidebar-link:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .user-sidebar .sidebar-link.active {
+    background-color: #007bff;
+    color: white;
+  }
+  

@@ -1,0 +1,269 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* General Styles for the Home Page */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+.home-page {
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 80px 0;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: white;
+}
+
+.hero-section h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+.hero-section img {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+/* Facilities Section */
+.facilities-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.facilities-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.facilities-section .card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.facilities-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.facilities-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.facilities-section .card-body {
+  text-align: center;
+}
+
+.facilities-section .card-title {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+
+.facilities-section .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Sports Carousel */
+.sports-carousel {
+  padding: 60px 0;
+  background: linear-gradient(to right, #4ca1af, #c4e0e5);
+  color: #fff;
+}
+
+.sports-carousel h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sports-carousel .carousel-item img {
+  border-radius: 15px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Fitness Section */
+.fitness-section {
+  padding: 60px 0;
+  background-color: #f7f9fc;
+}
+
+.fitness-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.fitness-section .card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fitness-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fitness-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.fitness-section .card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.fitness-section .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Coaches Section */
+.coaches-section {
+  padding: 60px 0;
+  background: linear-gradient(to right, #c4e0e5, #f5f7fa);
+}
+
+.coaches-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.coaches-section .card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coaches-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.coaches-section .card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+}
+
+.coaches-section .card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.coaches-section .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Achievements Section */
+.achievements-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.achievements-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.achievements-section .card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievements-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievements-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.achievements-section .card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.achievements-section .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Ensure the cards have equal height */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make images consistent in size and position */
+.card-img-top {
+  object-fit: cover; /* Makes sure the image covers the area without stretching */
+  height: 250px; /* You can adjust this height as per your design needs */
+}
+
+/* Ensure card body takes up the remaining space */
+.card-body {
+  flex-grow: 1;
+}
+
+/* Optional: Add some margin for spacing between cards */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}

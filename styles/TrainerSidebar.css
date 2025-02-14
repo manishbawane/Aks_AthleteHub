@@ -1,0 +1,37 @@
+.trainer-sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+  }
+  
+  .trainer-sidebar h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .trainer-sidebar nav ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .trainer-sidebar nav ul li {
+    margin-bottom: 15px;
+  }
+  
+  .trainer-sidebar nav ul li .sidebar-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+  }
+  
+  .trainer-sidebar nav ul li .sidebar-link:hover {
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .trainer-sidebar nav ul li.active .sidebar-link {
+    color: #0056b3;
+  }
+  

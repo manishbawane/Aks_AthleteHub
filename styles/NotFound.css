@@ -1,0 +1,13 @@
+.notfound-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .notfound-container h1 {
+    color: #e74c3c;
+  }
+  
+  .notfound-container p {
+    color: #95a5a6;
+  }
+  
